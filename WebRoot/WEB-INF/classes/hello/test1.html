@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>test1.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<script type="text/javascript">
+		function fun(){
+			var pp = document.getElementById("pp");
+			var dv = document.getElementById("dv");
+			pp.innerHTML ="这里是一个段落标签";
+			dv.innerHTML = "<select><option>中国</option></select>"
+		}
+	
+	</script>
+  </head>
+  
+  <body>
+   	<p id="pp"></p>
+   	<div  id="dv></div>
+   	<input type="button" value="点击" onclick="fun()"/>
+  </body>
+</html>
